@@ -3,3 +3,9 @@ dist/
 .env
 graph_data.json
 synthesis_report.md
+
+# stray compiled output that would shadow the .ts sources in the editor
+src/**/*.js
+src/**/*.js.map
+src/**/*.d.ts
+src/**/*.d.ts.map
